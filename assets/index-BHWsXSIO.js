@@ -1,0 +1,1 @@
+import"./index-CFGif6xw.js";import{s as n}from"./index-CADyFjsM.js";import"./sha2-PsZP68hz.js";async function s(r,e){const[t,i]=await n(r,e.replace("0x",""),{canonical:!0,recovered:!0,der:!1});return{signature:t,recoveryId:i}}export{s as signWithECDSA};
